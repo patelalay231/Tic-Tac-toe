@@ -29,6 +29,10 @@ resetBtn.addEventListener("click",()=>{
 })
 
 newGameBtn.addEventListener("click",()=>{
+    for(let box of boxes){
+        box.innerText="";
+        box.style.backgroundColor="#40A2E3";
+    }
     msgContainer.classList.add("hide");
     boxEnabled();
     count=0;
