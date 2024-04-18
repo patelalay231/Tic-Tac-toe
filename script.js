@@ -20,7 +20,7 @@ let turnO = true; //Let First Player is O
 resetBtn.addEventListener("click",()=>{
     for(let box of boxes){
         box.innerText="";
-        box.style.backgroundColor="#ffffc7";
+        box.style.backgroundColor="#40A2E3";
     }
     msgContainer.classList.add("hide");
     boxEnabled();
